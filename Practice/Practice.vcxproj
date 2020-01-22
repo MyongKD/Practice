@@ -79,6 +79,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\KD\source\repos\Practice\Practice\Header;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -151,17 +152,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="evaluate.cpp" />
-    <ClCompile Include="Files.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="random.cpp" />
-    <ClCompile Include="utills.cpp" />
+    <ClCompile Include="Source/evaluate.cpp" />
+    <ClCompile Include="Source/Files.cpp" />
+    <ClCompile Include="Source/main.cpp" />
+    <ClCompile Include="Source/random.cpp" />
+    <ClCompile Include="Source/utills.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="evaluate.h" />
-    <ClInclude Include="Files.h" />
-    <ClInclude Include="random.h" />
-    <ClInclude Include="utills.h" />
+    <ClInclude Include="Header/evaluate.h" />
+    <ClInclude Include="Header/Files.h" />
+    <ClInclude Include="Header/random.h" />
+    <ClInclude Include="Header/utills.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
