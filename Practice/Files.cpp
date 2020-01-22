@@ -25,9 +25,9 @@ bool Files::close() {
 }
 bool Files::write(std::string data) {
 	file.write(data.c_str(), data.size());
-	return true;
+	return (file.good());
 }
-bool Files::isFileExist(std::string fPath) {
+bool Files::isFileExist() {
 	struct stat buffer;
-	return (!stat(fPath.c_str(), &buffer));
+	return (!stat(filePath.c_str(), &buffer));
 }
