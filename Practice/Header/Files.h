@@ -15,8 +15,8 @@ public:
 	Files();
 	~Files();
 
-	bool isFileExist();
+	bool isFileExist(std::string fName);
 	bool open(std::string fPath);
-	bool close();
 	bool write(std::string data);
+	bool close();
 };

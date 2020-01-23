@@ -28,4 +28,3 @@ int64_t makeRandom_64bit(long long seed) {
 	std::uniform_int_distribution<int64_t> distribution(INT64_MIN, INT64_MAX);
 	return distribution(engine);
 }
-

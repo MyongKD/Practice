@@ -157,12 +157,14 @@
     <ClCompile Include="Source/main.cpp" />
     <ClCompile Include="Source/random.cpp" />
     <ClCompile Include="Source/utills.cpp" />
+    <ClCompile Include="Source\arithmetic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header/evaluate.h" />
     <ClInclude Include="Header/Files.h" />
     <ClInclude Include="Header/random.h" />
     <ClInclude Include="Header/utills.h" />
+    <ClInclude Include="Header\arithmetic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
